@@ -1,0 +1,98 @@
+.header {
+    background-color: #f7ca18;
+    text-align: center;
+    font-weight: bold;
+    height: 50px;
+    padding: 10px;
+    font-size: 2em;
+    box-shadow: 0px 4px 6px rgb(0, 0, 0, 0.2);
+}
+
+.todoform {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+}
+
+.modernInput {
+    width: 100%;
+    border: none;
+    display: block;
+    color: black;
+    font-size: 16px;
+}
+
+.modernInput:focus {
+    outline: none;
+}
+
+.modernButton {
+    display: inline-block;
+    border: none;
+    background-color: #f7ca18;
+    border-radius: 4px;
+    padding: 12px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.inputContainer {
+    display: flex;
+}
+
+.list {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.item {
+    width: 500px;
+    color: #353935;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.itemName {
+    font-weight: bold;
+    padding: 20px;
+}
+
+.line {
+    border: 1px solid #f4f4f4
+}
+
+.deletebutton {
+    padding: 12px 20px;
+    color: white;
+    background-color: #f7ca18;
+    border: none;
+    float: right;
+    border-radius: 5px;
+    margin-top: -9px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    background-color: #f7ca18;
+    padding: 10px;
+}
+.todo_item{
+    margin: 50px;
+}
+.total_item{
+    margin-left: 50px;
+}
